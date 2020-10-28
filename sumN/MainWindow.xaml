@@ -1,0 +1,19 @@
+﻿<Window x:Class="sumN.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sumN"
+        mc:Ignorable="d"
+        Title="Сумма n рядов" Height="294.37" Width="313.807">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="18,100,0,0" TextWrapping="Wrap" Text="Введите кол-во n рядов" VerticalAlignment="Top"/>
+        <TextBox   x:Name="countBox1" HorizontalAlignment="Left" Height="23" Margin="168,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="18,128,0,0" TextWrapping="Wrap" Text="Введите значение x" VerticalAlignment="Top" Width="131"/>
+        <TextBox   x:Name="countBox2" HorizontalAlignment="Left" Height="23" Margin="168,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Вычислить" HorizontalAlignment="Left" Margin="18,166,0,0" VerticalAlignment="Top" Width="270" Click="Button_Click"/>
+        <TextBlock x:Name="resultBox" HorizontalAlignment="Left" Margin="18,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="38" Width="270"/>
+        <Image Margin="10,23,2,180" Source="Image1.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
